@@ -1,10 +1,14 @@
+import styles from '../styles/components/Profile.module.css';
+
 export function Profile() {
   return (
-    <div>
+    <div className={styles.profileContainer}>
       <img src="https://github.com/Gustavo-tech.png" alt="Gustavo Henrique"/>
       <div>
         <strong>Gustavo Henrique</strong>
-        <p>Level 1</p>
+        <p>
+          <img src="icons/level.svg" alt="level"/>
+          Level 1</p>
       </div>
     </div>
   );
